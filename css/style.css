@@ -1,7 +1,7 @@
 @charset "utf-8";
 @font-face {
-	font-family: biancha;
-	src: url('./../fonts/biancha.otf');
+	font-family: GreatVibes;
+	src: url('./../fonts/GreatVibes-Regular.ttf');
   }
 
 /*============================== 
@@ -1054,13 +1054,13 @@ img.rounded{
 
 #slide-his-name{
 	position:relative; 
-	font-family: 'biancha', cursive; 
+	font-family: 'GreatVibes', cursive; 
 	font-size:115px;
 }
 
 #slide-and-text{
 	position:relative; 
-	font-family: 'biancha', cursive; 
+	font-family: 'GreatVibes', cursive; 
 	font-size:54px; 
 	margin-top:30px;
 }
@@ -1083,7 +1083,7 @@ img.rounded{
 
 #slide-her-name{
 	position:relative; 
-	font-family: 'biancha', cursive; 
+	font-family: 'GreatVibes', cursive; 
 	font-size:115px; 
 	margin-top:130px;
 }
@@ -1725,19 +1725,19 @@ hr.line-divider{
 /* 07.1.12 Divider Quote						*/
 /*-----------------------------------------------*/
 .quote-top{
-	font-family: 'biancha', cursive; 
+	font-family: 'GreatVibes', cursive; 
 	font-size:78px;
 }
 
 .quote-middle{
-	font-family: 'biancha', cursive; 
+	font-family: 'GreatVibes', cursive; 
 	font-size:114px; 
 	margin-top:50px; 
 	margin-left:-12px
 }
 
 .quote-bottom{
-	font-family: 'biancha', cursive; 
+	font-family: 'GreatVibes', cursive; 
 	font-size:78px;
 	margin-top:50px;
 }
@@ -2774,7 +2774,7 @@ form .has-error .btn-primary{
 /* 13.1 Couple Section							 */
 /* ----------------------------------------------*/
 .photo-name{
-	font-family: 'biancha', cursive; 
+	font-family: 'GreatVibes', cursive; 
 	font-size:75px; 
 	color:#FFF; 
 }
@@ -2822,12 +2822,12 @@ footer .image-divider.fixed-height{
 }
 
 #thank{
-	font-family: 'biancha', cursive; 
+	font-family: 'GreatVibes', cursive; 
 	font-size:85px;
 }
 
 #you{
-	font-family: 'biancha', cursive; 
+	font-family: 'GreatVibes', cursive; 
 	font-size:85px; 
 	margin-top:40px; 
 	margin-bottom:80px; 
@@ -2878,7 +2878,7 @@ footer .image-divider.fixed-height{
 /* 15.2 Our Story				 			 	 */
 /* ----------------------------------------------*/
 .handwriting-title{
-	font-family: 'biancha', cursive; 
+	font-family: 'GreatVibes', cursive; 
 	font-size:54px; 
 	margin-bottom:30px
 }
@@ -2960,7 +2960,7 @@ footer .image-divider.fixed-height{
 }
 
 .card-name{
-	font-family: 'biancha', cursive; 
+	font-family: 'GreatVibes', cursive; 
 	font-size:42px; 
 	color:#c8c8c8; 
 	margin-bottom:20px;
@@ -3075,7 +3075,7 @@ footer .image-divider.fixed-height{
 /* 16.2 Save the Date Section					 */
 /* ----------------------------------------------*/
 #save-date{
-	font-family: 'biancha', cursive; 
+	font-family: 'GreatVibes', cursive; 
 	font-size:54px;
 }
 
@@ -3087,7 +3087,7 @@ footer .image-divider.fixed-height{
 }
 
 #counting{
-	font-family: 'biancha', cursive; 
+	font-family: 'GreatVibes', cursive; 
 	font-size:78px;
 }
 
@@ -3099,7 +3099,7 @@ footer .image-divider.fixed-height{
 }
 
 #attending{
-	font-family: 'biancha', cursive; 
+	font-family: 'GreatVibes', cursive; 
 	font-size:78px;
 }
 
