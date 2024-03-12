@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta name="description" content="Graziana & Nicola - Wedding" />
+    <title>Graziana & Nicola - We want you!</title>
+    <link rel="icon" href="images/favicon.jpg" />
+    <link
+      rel="stylesheet"
+      href="css/bootstrap.min.css"
+      type="text/css"
+      media="screen"
+    />
+    <link rel="stylesheet" href="css/preloader.css" media="screen" />
+    <link rel="stylesheet" href="css/flexslider.css" type="text/css" />
+    <link rel="stylesheet" href="css/animate.css" type="text/css" />
+    <link rel="stylesheet" href="css/jquery.countdown.css" type="text/css" />
+    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
+    <link rel="stylesheet" href="css/owl.carousel.css" type="text/css" />
+    <link rel="stylesheet" href="css/owl.theme.css" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="css/fontello.css"
+      type="text/css"
+      media="screen"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,700"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Great+Vibes"
+      rel="stylesheet"
+    />
+    <!-- Theme CSS -->
+    <link href="css/style.css" rel="stylesheet" media="screen" />
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.slim.min.js"
+      integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8="
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      @import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+      body {
+        background: #927D76;
+      }
+      .wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      figure.serale {
+        color: #fff;
+        position: relative;
+        overflow: hidden;
+        margin: 10px;
+        width: 100%;
+        min-width: 300px;
+        max-width: 560px;
+        background: #5F4C46;
+        text-align: left;
+      }
+      figure.serale * {
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+      }
+      figure.serale img {
+        opacity: 1;
+        width: 100%;
+        -webkit-transition: all 0.35s;
+        transition: all 0.35s;
+      }
+      figure.serale > div {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+      }
+      figure.serale > div::before {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        content: "";
+        opacity: 0;
+        -webkit-transition: opacity 0.4s;
+        transition: opacity 0.4s;
+        -webkit-transition-delay: 0.3s;
+        transition-delay: 0.3s;
+        background-image: linear-gradient(
+          45deg,
+          rgba(95, 76, 70, 0.2) 40%,
+          rgba(95, 76, 70, 0.5)
+        );
+      }
+      figure.serale h2 {
+        word-spacing: -0.1em;
+        font-weight: 400;
+        text-transform: uppercase;
+        top: 0;
+        opacity: 0;
+        padding: 25px;
+        margin: 0;
+        position: absolute;
+        color: transparent;
+        text-shadow: 0 0 10px #ffffff;
+        text-align: right;
+        -webkit-transition: all 0.4s;
+        transition: all 0.4s;
+        -webkit-transition-delay: 0s;
+        transition-delay: 0s;
+      }
+      figure.serale h2 span {
+        font-weight: 800;
+      }
+      figure.serale i {
+        display: inline-block;
+        font-size: 36px;
+        color: #ffffff;
+        padding: 6px 16px;
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+        opacity: 0;
+        z-index: 1;
+        -webkit-transition: 0.05s linear;
+        transition: 0.05s linear;
+        -webkit-transition-delay: 0.1s;
+        transition-delay: 0.1s;
+      }
+      figure.serale .curl {
+        width: 0px;
+        height: 0px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        background: linear-gradient(
+          225deg,
+          #ffffff,
+          #f3f3f3 20%,
+          #FDE6D8 38%,
+          #927D76 50%,
+          rgba(95, 76, 70, 0.5) 50%,
+          rgba(95, 76, 70, 0.2) 60%,
+          rgba(95, 76, 70, 0.1)
+        );
+        box-shadow: 0 0 10px rgba(95, 76, 70, 0.5);
+        transition: all 0.4s ease;
+      }
+      figure.serale .curl:before,
+      figure.serale .curl:after {
+        content: "";
+        position: absolute;
+        z-index: -1;
+        left: 12%;
+        bottom: 6%;
+        width: 70%;
+        max-width: 300px;
+        max-height: 100px;
+        height: 55%;
+        box-shadow: 0 12px 15px rgba(95, 76, 70, 0.3);
+        transform: skew(-10deg) rotate(-6deg);
+      }
+      figure.serale .curl:after {
+        left: auto;
+        right: 6%;
+        bottom: auto;
+        top: 14%;
+        transform: skew(-15deg) rotate(-84deg);
+      }
+      figure.serale a {
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        position: absolute;
+        color: #ffffff;
+      }
+      figure.serale:hover > div h2,
+      figure.serale.hover > div h2 {
+        opacity: 1;
+        text-shadow: 0 0 0px #ffffff;
+        -webkit-transition-delay: 0.3s;
+        transition-delay: 0.3s;
+      }
+      figure.serale:hover > div::before,
+      figure.serale.hover > div::before {
+        opacity: 1;
+        -webkit-transition-delay: 0s;
+        transition-delay: 0s;
+      }
+      figure.serale:hover i,
+      figure.serale.hover i {
+        opacity: 0.7;
+        -webkit-transition-delay: 0.15s;
+        transition-delay: 0.15s;
+      }
+      figure.serale:hover .curl,
+      figure.serale.hover .curl {
+        width: 90px;
+        height: 90px;
+        -webkit-transition-delay: 0s;
+        transition-delay: 0s;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+        <figure class="serale">
+            <img src="images/serale.jpg" alt="sample45" />
+            <div>
+              <h2>
+                Sei stato <span>invitato</span>! Clicca sulla freccetta
+                <span>in basso</span>
+              </h2>
+              <a href="https://gnwedding.it/"><i class="ion-ios-arrow-thin-right"></i></a>
+              <div class="curl"></div>
+              <a href="#"></a>
+            </div>
+          </figure>
+    </div>
+
+    <script type="text/javascript">
+      $("figure").mouseleave(function () {
+        $(this).removeClass("hover");
+      });
+    </script>
+  </body>
+</html>
